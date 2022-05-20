@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndeCor</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- 01 -- Layout -->
+
+    <header id="event-description">
+        
+        <!--1 parte-->
+        
+        <div id="disclaimer">
+            <h2>InDecor</h2>
+            <p class="about-event">
+                Um evento para revolucionar a sua criatividade
+            </p>
+            Data do evento:<p class="event-date">Domingo, 28 de maio, a partir das 14h</p>
+        </div>
+
+        <!--2 parte FORMULARIO Utilizando FORM no HEADER  -->
+
+        <div id="subscription-form">
+            <p>Preencha o formulario para receber os detalhes do evento</p>
+    <form>
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" name="phone" placeholder="Digite seu numero">
+        </div>
+        <div class="form-group">
+            <label for="interest">Principal Interesse</label>
+            <select name="interest">
+                <option value="" disabled selected>Selecione</option>
+                <option value="apartment">Apartamento</option>
+                <option value="house">Casas</option>
+                <option value="garden">Jardins</option>
+                <option value="other">Outros</option>
+            </select>
+        </div>
+        <input type="submit" class="btn" value="Quero me inscrever">
+
+    </form>
+        </div>
+</header>
+
+<!-- 02 - PRIMEIRA PARTE DO CORPO DO SITE-->
+
+<section id="key-benefits">
+    <h2>Oque você vai aprender:</h2>
+    <div class="benefits">
+        <div class="benefit">
+        <div id="benefit-1" class="benefit-img"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisijaidiaOlAWORD.</p>
+            </div>
+                <div class="benefit">
+            <div id="benefit-2" class="benefit-img"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisijaidiaOlAWORD.</p>
+          </div>
+                <div class="benefit">
+         <div id="benefit-3" class="benefit-img"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisijaidiaOlAWORD.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- 03 - SEGUNDA PARTE DO CORPO DO SITE -->
+
+<section id="location">
+    <div id="address">
+          <i class="bi bi-geo-alt-fill"></i>
+          <div id="address-details">
+              <p>Rua do evento, 1999</p>
+              <p>Bairro Centro</p>
+              <p>Abertura: 15h</p>
+          </div>
+    </div>
+    <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+            O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos exemplos de vários ambientes, internos como externos.
+        </p>
+    </div>
+</section>
+
+<!-- 04 - TERCEIRA PARTE DO CORPO DO SITE -->
+
+<section id="details">
+    
+    <!--1 parte da terceira parte do site-->
+    
+    <div class="detail" id="detail-1">
+        <img src="img/hrz-3.jpg" alt="Sala decorada em tons claros">
+        <div class="detail-description">
+            <h3>Conheça os ambientes que voce vai aprender a decorar</h3>
+        </div>
+    </div>
+
+       <!--2 parte da terceira parte do site -->
+        
+       <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>Combinação de cores</li>
+                    <li>Organização</li>
+                    <li>E muito mais..</li>
+                </ul>
+            </div>
+                <img src="img/hrz-4.jpg" alt="Sala de jantar decorado">
+            </div>
+
+         <!--3 parte da terceira parte do site -->
+
+            <div class="detail" id="detail-3">
+                <img src="img/hrz-5.jpg" alt="Sala decorada em tons escuros">
+                <div class="detail-description">
+                    <h3>Objetos</h3>
+                    <ul>
+                        <li>Cadeiras</li>
+                        <li>Mesas</li>
+                        <li>Espelhos</li>
+                        <li>Plantas</li>
+                        <li>Janelas</li>
+                        <li>E muito mais...</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <!--05 - QuARTA PARTE DO CORPO DO SITE - INSCRIÇAO-->
+
+    <section id="cta">
+        <h3>Gostou? Entao se inscreva:</h3>
+        <button class="btn">Solicitar Inscriçao</button>
+    </section>
+
+    <!-- 06 - FOOTER -->
+
+    <footer id="footer">
+        <h3>InDecor</h3>
+        <p>A evolução da decoração de interiores</p>
+        <p><span>Entre em contanto:</span> decor@indecor.com.br</p>
+        <p><span>Ou pelo telefone:</span> (55) 9999-9999</p>
+    </footer>
+
+        
+
+</body>
+</html>
